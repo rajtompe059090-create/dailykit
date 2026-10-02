@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Tools"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="18dp"/>
+
+    <LinearLayout
+        android:id="@+id/toolCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:padding="18dp"
+        android:background="@color/card_background">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Calculator"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="@color/blue"
+            android:textSize="28sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toolEmi"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:padding="18dp"
+        android:background="@color/card_background">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="EMI Calculator"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="@color/blue"
+            android:textSize="28sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toolGst"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:padding="18dp"
+        android:background="@color/card_background">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="GST Calculator"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="@color/cyan"
+            android:textSize="28sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/toolNotes"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:padding="18dp"
+        android:background="@color/card_background">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Notes"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="›"
+            android:textColor="@color/orange"
+            android:textSize="28sp"/>
+    </LinearLayout>
+
+</LinearLayout>

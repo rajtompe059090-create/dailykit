@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.priti.dailykit.app-release-40:/drawable_neon_top.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/drawable/neon_top.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/drawable_ic_notes.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/drawable/ic_notes.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/layout_activity_emi.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/layout/activity_emi.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/drawable_ic_calculator.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/drawable/ic_calculator.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/layout_activity_gst.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/layout/activity_gst.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/layout_activity_settings.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/drawable_ic_percent.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/drawable/ic_percent.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/drawable_tool_card_bg.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/drawable/tool_card_bg.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/layout_activity_tools.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/layout/activity_tools.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/layout_activity_all_tools.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/layout/activity_all_tools.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/layout_activity_home.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/drawable_ic_money.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/drawable/ic_money.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/drawable_ic_settings.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/layout_activity_calculator.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/layout/activity_calculator.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/layout_activity_splash.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/layout_activity_notes.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/layout/activity_notes.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/animator_card_press.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/animator/card_press.xml"
+    },
+    {
+        "merged": "com.priti.dailykit.app-release-40:/drawable_ic_tools.xml.flat",
+        "source": "com.priti.dailykit.app-main-41:/drawable/ic_tools.xml"
+    }
+]

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:label="DailyKit"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DailyKit">
+
+        <activity
+            android:name=".EmiActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".GstActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".NotesActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".AllToolsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".CalculatorActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ToolsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+    </application>
+
+</manifest>

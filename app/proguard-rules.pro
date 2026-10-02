@@ -1,0 +1,1 @@
+# DailyKit ProGuard rules

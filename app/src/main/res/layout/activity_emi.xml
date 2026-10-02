@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMI Calculator"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etLoanAmount"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Loan Amount"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/text_secondary"
+        android:backgroundTint="@color/blue"/>
+
+    <EditText
+        android:id="@+id/etInterest"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Annual Interest %"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/text_secondary"
+        android:backgroundTint="@color/blue"/>
+
+    <EditText
+        android:id="@+id/etMonths"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Loan Period (Months)"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/text_secondary"
+        android:backgroundTint="@color/blue"/>
+
+    <Button
+        android:id="@+id/btnCalculateEmi"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:text="Calculate EMI"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvEmiResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Enter values and calculate"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="@color/card_background"/>
+
+</LinearLayout>

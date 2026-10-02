@@ -1,0 +1,8 @@
+com.priti.dailykit.app-pngs-0 /data/data/com.termux/files/home/DailyKit/app/build/generated/res/pngs/release
+com.priti.dailykit.app-updated_navigation_xml-1 /data/data/com.termux/files/home/DailyKit/app/build/generated/updated_navigation_xml/release
+com.priti.dailykit.app-packageReleaseResources-2 /data/data/com.termux/files/home/DailyKit/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.priti.dailykit.app-packageReleaseResources-3 /data/data/com.termux/files/home/DailyKit/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.priti.dailykit.app-release-4 /data/data/com.termux/files/home/DailyKit/app/build/intermediates/merged_res/release/mergeReleaseResources
+com.priti.dailykit.app-main-5 /data/data/com.termux/files/home/DailyKit/app/src/main/res
+com.priti.dailykit.app-release-6 /data/data/com.termux/files/home/DailyKit/app/src/release/res
+gradleHome-0 /data/data/com.termux/files/home/.gradle

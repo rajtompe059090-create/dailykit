@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#070B14</color>
+    <color name="black">#000000</color>
+    <color name="blue">#38BDF8</color>
+    <color name="card_background">#111827</color>
+    <color name="cyan">#22D3EE</color>
+    <color name="dk_background">#070B14</color>
+    <color name="dk_blue">#2563EB</color>
+    <color name="dk_cyan">#22D3EE</color>
+    <color name="dk_surface">#111827</color>
+    <color name="dk_surface_2">#111827</color>
+    <color name="dk_text_secondary">#94A3B8</color>
+    <color name="dk_white">#FFFFFF</color>
+    <color name="green">#22C55E</color>
+    <color name="nav_background">#050811</color>
+    <color name="nav_card">#0D1422</color>
+    <color name="orange">#F59E0B</color>
+    <color name="primary">#2563EB</color>
+    <color name="purple">#A855F7</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="white">#FFFFFF</color>
+    <style name="CalcButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/dk_white</item>
+        <item name="backgroundTint">@color/dk_surface_2</item>
+    </style>
+    <style name="Theme.DailyKit" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="android:fontFamily">sans</item>
+
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/dk_background</item>
+        <item name="android:navigationBarColor">@color/dk_background</item>
+
+        <item name="android:windowBackground">@color/dk_background</item>
+
+        <item name="colorPrimary">@color/dk_blue</item>
+        <item name="colorPrimaryVariant">@color/dk_blue</item>
+        <item name="colorAccent">@color/dk_cyan</item>
+
+    </style>
+</resources>
