@@ -1,2 +1,3 @@
 *.jks
 keystore.properties
+gradle.properties.backup
